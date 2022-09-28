@@ -5,8 +5,11 @@ function App() {
     <div className="App-1">
       <header className="App-header-1">
         <p>
+          learn react
+        </p>
+        <p>
           Edit <code>src/App.js</code> and save to reload.....
-          Adding some random text
+          <h5>Base URL : {process.env.REACT_APP_baseUrl}</h5>
         </p>
 
       </header>
