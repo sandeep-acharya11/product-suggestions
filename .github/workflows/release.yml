@@ -9,24 +9,38 @@ on:
       - master
 
 jobs:
-  release:
+  release-please:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        id: checkout
         uses: actions/checkout@v3
 
-      - name: Get bump version
-        id: get_version
-        run: |
-          VERSION=$(node -p "require('./package.json').version")
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
-
-      - name: Create Release
-        uses: ncipollo/release-action@v1
+      - name: Release Please Action
+        uses: google-github-actions/release-please-action@v3
         with:
-          tag: v${{ env.VERSION }}
-          name: Release v${{ env.VERSION }}
-          body: |
-            ## Changes in this release
-            - See the [changelog](./CHANGELOG.md) for details.  
+          release-type: node
+          package-name: product-suggestions
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          
+  # release:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout repository
+  #       id: checkout
+  #       uses: actions/checkout@v3
+
+  #     - name: Get bump version
+  #       id: get_version
+  #       run: |
+  #         VERSION=$(node -p "require('./package.json').version")
+  #         echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+  #     - name: Create Release
+  #       uses: ncipollo/release-action@v1
+  #       with:
+  #         tag: v${{ env.VERSION }}
+  #         name: Release v${{ env.VERSION }}
+  #         body: |
+  #           ## Changes in this release
+  #           - See the [changelog](./CHANGELOG.md) for details.  
