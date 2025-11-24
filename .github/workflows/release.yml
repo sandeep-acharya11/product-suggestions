@@ -22,14 +22,11 @@ jobs:
           VERSION=$(node -p "require('./package.json').version")
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
-      - name: Version bump and release
-        id: release
+      - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          tag: true
-          release_name: "Release ${{ steps.release.outputs.tag }}"
-          draft: false
-          prerelease: false
-          files: |
-            dist/my-artifact-*.zip
-            dist/my-artifact-*.tar.gz
+          tag: v${{ env.VERSION }}
+          name: Release v${{ env.VERSION }}
+          body: |
+            ## Changes in this release
+            - See the [changelog](./CHANGELOG.md) for details.  
