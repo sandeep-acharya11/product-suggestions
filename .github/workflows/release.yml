@@ -8,10 +8,10 @@ on:
     branches:
       - master
 
-permission:
+permissions:
   contents: write
-  pull_requests: write
-
+  pull-requests: write
+  
 jobs:
   release-please:
     runs-on: ubuntu-latest
