@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App-1">
-      <header className="App-header-1">
+      <header className="App-header-2">
         <p>
           <a href='https://www.google.co.uk'>learn react</a>
         </p>
