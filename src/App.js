@@ -5,7 +5,7 @@ function App() {
     <div className="App-1">
       <header className="App-header-1">
         <p>
-          <a href='https://www.google.com'>learn react</a>
+          <a href='https://www.google.com/in'>learn react</a>
         </p>
         <p>
           Edit <code>src/App.js</code> and save to reload.....
