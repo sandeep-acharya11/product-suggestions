@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/sandeep-acharya11/product-suggestions/compare/v1.0.0...v1.1.0) (2025-11-26)
+
+
+### Features
+
+* style added ([#14](https://github.com/sandeep-acharya11/product-suggestions/issues/14)) ([7f2ec1a](https://github.com/sandeep-acharya11/product-suggestions/commit/7f2ec1ae022008231df288c166cc7a1f95f62d1f))
+
+
+### Bug Fixes
+
+* link changed ([#11](https://github.com/sandeep-acharya11/product-suggestions/issues/11)) ([8183c99](https://github.com/sandeep-acharya11/product-suggestions/commit/8183c99a0408f1376393756e3713c6506d0c4c1e))
+
 ## 1.0.0 (2025-11-25)
 
 
