@@ -8,7 +8,7 @@ function App() {
           <a href='https://www.google.co.uk'>learn react</a>
         </p>
         <p>
-          Edit <code>src/App.js</code> and save to reload.......
+          Edit <code>src/App.js</code> and save to reload.
           <h5>Base URL : {process.env.REACT_APP_baseUrl}</h5>
         </p>
 
