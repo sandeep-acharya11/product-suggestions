@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/sandeep-acharya11/product-suggestions/compare/v1.2.2...v1.2.3) (2026-02-20)
+
+
+### Bug Fixes
+
+* Update config-file condition in release.yml ([#24](https://github.com/sandeep-acharya11/product-suggestions/issues/24)) ([2d9138f](https://github.com/sandeep-acharya11/product-suggestions/commit/2d9138fae245121316ed2d8680c728261af29ac7))
+
 ## [1.2.2](https://github.com/sandeep-acharya11/product-suggestions/compare/v1.2.1...v1.2.2) (2026-02-20)
 
 
