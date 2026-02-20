@@ -25,6 +25,6 @@ jobs:
           release-type: node
           #package-name: products-sugg
           token: ${{ secrets.GITHUB_TOKEN }}
-          config-file: release-please-config.json
-          manifest-file: .release-please-manifest.json
+          config-file: ${{false && 'release-please-config.json' || ''}}
+          manifest-file: ${{false && '.release-please-manifest.json' || ''}}
           
