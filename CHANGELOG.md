@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/sandeep-acharya11/product-suggestions/compare/v1.2.1...v1.2.2) (2026-02-20)
+
+
+### Features
+
+* addmanifest ([#22](https://github.com/sandeep-acharya11/product-suggestions/issues/22)) ([c656685](https://github.com/sandeep-acharya11/product-suggestions/commit/c656685061c68e834773dec6af4b5450cdec0088))
+
 ## [1.2.1](https://github.com/sandeep-acharya11/product-suggestions/compare/v1.2.0...v1.2.1) (2026-02-20)
 
 
