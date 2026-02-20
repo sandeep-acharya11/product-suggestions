@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/sandeep-acharya11/product-suggestions/compare/v1.2.0...v1.2.1) (2026-02-20)
+
+
+### Features
+
+* adding manifest and config for release-please ([#20](https://github.com/sandeep-acharya11/product-suggestions/issues/20)) ([523e43b](https://github.com/sandeep-acharya11/product-suggestions/commit/523e43bbf44f35ad0578f25f478165a32f8b0f8e))
+
 ## [1.2.0](https://github.com/sandeep-acharya11/product-suggestions/compare/v1.1.1...v1.2.0) (2026-01-21)
 
 
