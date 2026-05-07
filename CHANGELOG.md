@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/sandeep-acharya11/product-suggestions/compare/v2.0.0...v3.0.0) (2026-05-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* **aepp-6543:** Refine comments in index.js ([#32](https://github.com/sandeep-acharya11/product-suggestions/issues/32))
+
+### Bug Fixes
+
+* **aepp-6543:** Refine comments in index.js ([#32](https://github.com/sandeep-acharya11/product-suggestions/issues/32)) ([638db72](https://github.com/sandeep-acharya11/product-suggestions/commit/638db7249ece3f19da7a821a8e583396983cf3d1))
+
 ## [2.0.0](https://github.com/sandeep-acharya11/product-suggestions/compare/v1.2.4...v2.0.0) (2026-05-07)
 
 
