@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/sandeep-acharya11/product-suggestions/compare/v1.2.4...v2.0.0) (2026-05-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* **aepp-1234:** adding few more code
+
+### Features
+
+* **aepp-1234:** adding few more code ([04f94c8](https://github.com/sandeep-acharya11/product-suggestions/commit/04f94c8a628404fa6c33032cb37548ada4f48f5d))
+
 ## [1.2.4](https://github.com/sandeep-acharya11/product-suggestions/compare/v1.2.3...v1.2.4) (2026-02-20)
 
 
